@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LGC Chat</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Signup</string>
+    <string name="password">password</string>
+    <string name="don_t_have_an_account">don\'t have an account</string>
+    <string name="email">email</string>
+    <string name="username">Username</string>
+    <string name="have_an_account">have an account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
