@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_message_item"
+        android:title="new message"
+        android:icon="@drawable/ic_new_message"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/new_groupe_item"
+        android:title="new groupe"
+        android:icon="@drawable/ic_new_group"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/change_password_item"
+        android:title="change Password"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout_item"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+
+</menu>
