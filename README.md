@@ -1,4 +1,4 @@
-# Chat_app
+# "Let's get connected " or LGC Chat app
 This is an  application for chat in android (version 5 'lollipop' and more) using Firebase (for the data base )
 # functionality
 - Create account (using email and password )
