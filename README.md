@@ -1,5 +1,5 @@
-#  LGC Chat app
- abbreviation "Let's get connected " 
+# Name
+ LGC Chat app : abbreviation "Let's get connected " 
 # Description
 LGC it is an   application for chat in android (version 5 'lollipop' and more) using Firebase (for the data base )
 Some functionality
@@ -12,7 +12,7 @@ Some functionality
 .
 .
 .etc
-# some screenshots :
+# Badges
 <p align="center">
    <img src="https://user-images.githubusercontent.com/43831107/63231218-7afa4c80-c210-11e9-8681-91930f2f3357.jpg" width="200" title="Sart Screen">
   <img src="https://user-images.githubusercontent.com/43831107/63231166-acbee380-c20f-11e9-9857-03c92883699b.png" width="200" title="Sart Screen">
