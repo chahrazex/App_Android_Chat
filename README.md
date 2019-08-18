@@ -8,5 +8,7 @@ This is an  application for chat in android (version 5 'lollipop' and more) usin
      <img src="https://user-images.githubusercontent.com/43831107/63231200-48e8ea80-c210-11e9-9025-5615e76ab923.png" width="200" title="chat">
      <img src="https://user-images.githubusercontent.com/43831107/63231201-48e8ea80-c210-11e9-8fb4-9ff87a5e1b29.png" width="200" title="contact">
    <img src="https://user-images.githubusercontent.com/43831107/63231202-49818100-c210-11e9-8a41-1797e91cc694.png" width="200" title="group">
+      <img src="https://user-images.githubusercontent.com/43831107/63231355-51422500-c212-11e9-9af4-5483850b3c41.png" width="200" title="message">
+      <img src="https://user-images.githubusercontent.com/43831107/63231356-51422500-c212-11e9-9bc8-f9582bd91c41.png" width="200" title="profile">
 </p>
 
