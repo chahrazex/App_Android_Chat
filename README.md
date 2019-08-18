@@ -3,7 +3,7 @@
 # Description
 LGC it is an   application for chat in android (version 5 'lollipop' and more) using Firebase (for the data base )
 
-Some functionality
+Some functionality :
 - Create account (using email and password )
 - Send message in private
 - Group discussion
