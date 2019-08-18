@@ -1,5 +1,5 @@
 # Chat_app
-This is un application for chat in android (version 5 'lollipop' and more) using Firebase (for the data base )
+This is an  application for chat in android (version 5 'lollipop' and more) using Firebase (for the data base )
 # ScreenShot
 <p align="center">
    <img src="https://user-images.githubusercontent.com/43831107/63231218-7afa4c80-c210-11e9-8681-91930f2f3357.jpg" hight="100" width="350" title="Sart Screen">
