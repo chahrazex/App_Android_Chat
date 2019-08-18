@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bgheader_main"
+            />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/profile_image"
+            android:textColor="@color/colorDark"
+            android:textSize="20sp" />
+        <!-- <android.support.design.widget.TabLayout
+              android:id="@+id/tablayout"
+              android:layout_marginTop="60dp"
+              android:background="@color/colorWhite"
+              android:layout_width="match_parent"
+              android:layout_marginStart="70dp"
+              android:layout_marginEnd="20dp"
+              android:layout_height="50dp">
+
+
+              <android.support.design.widget.TabItem
+                  android:icon="@drawable/ic_bubble_speak"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+              <android.support.design.widget.TabItem
+                  android:icon="@drawable/ic_list"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+              <android.support.design.widget.TabItem
+                  android:icon="@drawable/ic_group"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+
+          </android.support.design.widget.TabLayout>-->
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_below="@id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/layout_toolbar"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+</RelativeLayout>

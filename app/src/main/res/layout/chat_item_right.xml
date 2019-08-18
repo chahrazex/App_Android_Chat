@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:visibility="gone"
+            android:layout_toRightOf="@id/profile_image"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/nameSender"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:src="@drawable/ic_action_user"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/show_message"
+            android:layout_alignParentEnd="true"
+
+            android:layout_below="@id/time_message"
+            android:layout_marginEnd="25dp"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_right"/>
+        <TextView
+            android:id="@+id/time_message"
+            android:inputType="datetime"
+            android:text="22:19"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/seen_message"
+            android:inputType="datetime"
+            android:layout_marginEnd="40dp"
+            android:text="Vu"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/show_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/delivered"
+            android:layout_marginTop="-30dp"
+            android:layout_below="@id/show_message"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_chek_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

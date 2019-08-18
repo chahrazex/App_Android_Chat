@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="170dp">
+    <RelativeLayout
+        android:background="@drawable/bk_groupe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/groupe_name_item"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the best friends "
+            android:textSize="18dp"
+            android:textColor="@color/colorbackgroundBtnStart" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
