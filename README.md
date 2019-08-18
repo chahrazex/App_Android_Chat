@@ -27,4 +27,6 @@ Some functionality :
 
 # Contributors
 My girlfriend Amina Litim
+# Special Thanks
+Special thanks to Youtube and stackoverflow for their helpe
 
