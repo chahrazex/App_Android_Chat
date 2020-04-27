@@ -28,5 +28,5 @@ Some functionality :
 # Contributors
  Amina Litim
 # Special Thanks
-Special thanks to Youtube and stackoverflow for their helpe
+Special thanks to Youtube and stackoverflow
 
