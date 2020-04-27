@@ -26,7 +26,7 @@ Some functionality :
 </p>
 
 # Contributors
-My girlfriend Amina Litim
+ Amina Litim
 # Special Thanks
 Special thanks to Youtube and stackoverflow for their helpe
 
